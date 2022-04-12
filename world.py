@@ -17,7 +17,7 @@ def bar():
     return "hey there you found bar"
 
 @app.route('/test')
-def bar():
+def test():
     return "hey there you found test"
 
 
