@@ -16,10 +16,6 @@ def foo():
 def bar():
     return "hey there you found bar"
 
-@app.route('/test')
-def test():
-    return "hey there you found test"
-
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=os.environ.get('PORT', '5000'))
